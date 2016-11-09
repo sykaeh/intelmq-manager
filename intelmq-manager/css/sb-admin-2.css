@@ -420,33 +420,33 @@ table.dataTable thead .sorting:after {
 }
 
 #graph-popUp-fields {
-    width: 100%;
+  width: 100%;
+  text-align: left;
 }
 
-#graph-popUp-fields input {
-    width: 100%;
+#graph-popUp-fields .list-group {
+  margin-bottom: 0;
 }
 
-#graph-popUp-fields td {
-    text-align: right;
+#graph-popUp-fields .form-group {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #ddd;
+  padding: 5px 15px;
+}
+
+#graph-popUp-fields .form-group label {
+  display: inline-block;
+  width: 30%;
+}
+
+#graph-popUp-fields .form-group .form-control {
+  width: 70%;
 }
 
 #graph-popUp-title {
     width: 100%;
     font-size:28px;
-}
-
-#graph-row {
-    display: none;
-    height: 90%;
-}
-
-#graph-row.col-xs-10 {
-    height: 100%;
-}
-
-#graph-row.col-xs-2 {
-    height: 100%;
 }
 
 #graph-tab {
